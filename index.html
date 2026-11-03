@@ -3,36 +3,46 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>AURA Abayas | Luxury Modest Wear</title>
+  <title>AURA Abayas | The Haute Modesty Collection</title>
   <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header class="navbar">
-    <div class="logo">AURA ABAYAS</div>
-    <nav>
-      <a href="#collection">Collection</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a>
-    </nav>
+
+  <!-- Navigation -->
+  <header class="header">
+    <div class="nav-container">
+      <a href="#" class="brand-logo">AURA ABAYAS</a>
+      <nav class="nav-links">
+        <a href="#collection">Collection</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
   </header>
 
   <main>
+    <!-- Hero Banner -->
     <section class="hero">
       <div class="hero-content">
-        <p class="tagline">The Haute Modesty Collection</p>
+        <span class="sub-tag">The Haute Modesty Collection</span>
         <h1>Timeless Elegance & Contemporary Grace</h1>
-        <p class="subtext">Handcrafted premium silks, fluid drapes, and bespoke modest wear tailored for every occasion.</p>
-        <a href="#collection" class="btn primary-btn">Explore Collection</a>
+        <p>Bespoke silhouettes tailored with pure Medina silk and breathable Korean Nida fabrics.</p>
+        <a href="#collection" class="btn-primary">Explore Collection</a>
       </div>
     </section>
 
+    <!-- Product Catalog -->
     <section id="collection" class="catalog">
       <div class="section-header">
         <h2>Curated Arrivals</h2>
-        <p>Crafted with fine Medina silk and breathable Korean Nida fabrics.</p>
+        <p>Direct WhatsApp ordering with doorstep delivery across India.</p>
       </div>
 
       <div class="product-grid">
+        <!-- Product 1 -->
         <article class="product-card">
           <div class="image-wrapper placeholder-1">
             <span class="badge">Bestseller</span>
@@ -42,11 +52,13 @@
             <p class="fabric">Pure Korean Nida • Obsidian Black</p>
             <div class="price-row">
               <span class="price">₹4,499</span>
-              <button class="cart-btn">Add to Bag</button>
+              <a href="https://wa.me/919281410800?text=Hello%2C%20I%20would%20like%20to%20order%20the%20Maison%20Rawdah%20Open%20Abaya%20(%E2%82%B94%2C499)." 
+                 target="_blank" rel="noopener noreferrer" class="cart-btn">Order on WhatsApp</a>
             </div>
           </div>
         </article>
 
+        <!-- Product 2 -->
         <article class="product-card">
           <div class="image-wrapper placeholder-2">
             <span class="badge">New</span>
@@ -56,11 +68,13 @@
             <p class="fabric">Medina Silk • Sage Green</p>
             <div class="price-row">
               <span class="price">₹5,299</span>
-              <button class="cart-btn">Add to Bag</button>
+              <a href="https://wa.me/919281410800?text=Hello%2C%20I%20would%20like%20to%20order%20the%20Zahra%20Embroidered%20Kimono%20(%E2%82%B95%2C299)." 
+                 target="_blank" rel="noopener noreferrer" class="cart-btn">Order on WhatsApp</a>
             </div>
           </div>
         </article>
 
+        <!-- Product 3 -->
         <article class="product-card">
           <div class="image-wrapper placeholder-3">
             <span class="badge">Exclusive</span>
@@ -70,16 +84,31 @@
             <p class="fabric">Crêpe Crepe • Desert Sand</p>
             <div class="price-row">
               <span class="price">₹4,899</span>
-              <button class="cart-btn">Add to Bag</button>
+              <a href="https://wa.me/919281410800?text=Hello%2C%20I%20would%20like%20to%20order%20the%20Noor%20Pleated%20Bisht%20(%E2%82%B94%2C899)." 
+                 target="_blank" rel="noopener noreferrer" class="cart-btn">Order on WhatsApp</a>
             </div>
           </div>
         </article>
       </div>
     </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <div class="about-content">
+        <h2>Uncompromising Quality & Modesty</h2>
+        <p>Every piece in our collection is precision-cut and stitched using ethically sourced luxury fabrics. Designed for everyday comfort and grand formal occasions.</p>
+      </div>
+    </section>
   </main>
 
-  <footer>
-    <p>&copy; 2026 AURA Abayas. All rights reserved.</p>
+  <!-- Footer -->
+  <footer id="contact" class="footer">
+    <div class="footer-container">
+      <p class="brand-logo footer-logo">AURA ABAYAS</p>
+      <p>Inquiries & Custom Orders: <a href="https://wa.me/919281410800" target="_blank" rel="noopener noreferrer" class="contact-link">+91 92814 10800</a></p>
+      <p class="copyright">&copy; 2026 AURA Abayas. All rights reserved.</p>
+    </div>
   </footer>
+
 </body>
 </html>
